@@ -191,7 +191,7 @@ main {
 .red {color:red;}
 .lightblue {color: #56acef;}
 .card {
-    min-height: 350px;
+    height: 350px;
     width: 350px;
     margin-bottom: 50px;
     perspective: 350px;
@@ -210,7 +210,9 @@ strong {
     line-height: 70px;
     padding-left: 20px;
 }
-
+.img1{
+    background: url('https://prod.media.libero.pe/630x773/libero/imagen/2018/10/03/noticia-allison-parker-diablita-libero-7.jpg') no-repeat center / cover;
+}
 .img2 {
   background: url('https://cdn.yostagram.com/2018/11/allison-parker-280.jpg') no-repeat center / cover;
 }
