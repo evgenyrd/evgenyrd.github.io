@@ -87,14 +87,14 @@ body { padding: 0;margin: 0;font-family: 'Open Sans', sans-serif;
     padding-left: 10px;
 }
 .about1 {
-
+    background: url('https://cdn1.savepice.ru/uploads/2019/1/27/7ec8da6e909cbef12e488f46291ec50e-full.jpg') no-repeat center / cover;
     height: 60vh;
     box-shadow: inset 0 0 50px rgba(0,0,0,0.8);
     border-radius:25%;  	
 background-attachment:fixed;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 .hero_subtitle {
     font-size:40px;
