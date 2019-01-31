@@ -1,0 +1,145 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+header { 
+    background: url(../img/back.jpg) no-repeat center top / cover;  
+    height: 100vh;
+}
+.fix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+.logo {
+    height: 65px;
+    padding-top: 30px;
+    float: left;
+}
+.container {
+    width:900px;
+    margin: 0 auto;
+}
+nav {
+    float: right;
+    margin-top:77px;
+}
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 30px;
+}
+.menu a { 
+    font-family: verdana, sans-serif;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+ .b:hover{
+    color: #fff;
+}
+.choice {
+    float: right;
+    font-family: sylfaen, sans-serif;
+    padding-top: 30px;
+    font-style: italic;
+    opacity: 0.8;
+    font-size: 45px;
+    font-weight: 100;
+    transform: uppercase;
+}
+.button {
+    background: #323232;
+    color: #fff;
+    border-radius: 29px;
+    display: block;
+    width: 190px;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: verdana, sans-serif;
+    float: right;
+    }
+.button:hover {
+    box-shadow: 0px 0px 10px #000;
+    background: #222;
+    color: #eee;
+}
+#second {
+    height: 600px;
+    background: url(../img/back2.jpg) no-repeat center / cover;
+}
+.info {
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: verdana, sans-serif;
+    font-weight: bold;
+}
+#third {
+    height: 600px;
+    background: url(../img/back3.jpg) no-repeat center / cover;
+}
+#text1 {
+    float: left;
+    width: 400px;
+    padding-top: 50px;
+}
+#text2 {
+    float: right;
+    width: 400px;
+    padding-top: 50px;
+}
+.text {
+    font-family: arial, sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+}
+#pic1 {
+    float: right;
+    height: 200px;
+    width: 356px;
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+#pic2 {
+    float: right;
+    height: 200px;
+}
+#pic4 {
+    height: 230px;
+}
+footer {
+    background-color: #333;
+    height: 100px;
+}
+.img{
+    height: 20px;
+}
+.img:hover {
+    opacity: 0.5;
+    transition-duration: .2s;
+}
+.menu2 { 
+    padding-top: 40px;
+    float: center;
+}
+#foot {
+    padding-top: 40px;
+    float: left;
+    padding-right: 20px;
+    font-family: arial, sans-serif;
+    color: #fff;
+}
