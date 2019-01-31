@@ -1,0 +1,282 @@
+body { padding: 0;margin: 0;font-family: 'Open Sans', sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    position:fixed;
+    background: #fff;
+    margin-top: 0px;
+    border-radius: 50px;
+    overflow: visible;
+    z-index: 2;
+}
+.discription { 
+    display:flex;
+    align-items: center;
+}
+.name {
+    font-size: 20px;
+    font-weight:800;
+}
+.small_name {
+ font-size: 18px;
+ color:#999999
+}
+.menu-list {
+    display: flex;align-items: center;
+}
+.menu_button {
+  text-decoration: none;
+  color : #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  background-color: #89ceff;
+  border: 4px solid #2b2a2c;
+  border-radius:50px;
+  padding: 13px 28px;
+}
+.menu_button:hover {
+    background-color:#56acef;
+    transition: 0.1s;
+    box-shadow: inset 0 0 6px;
+}
+.menubuttons {
+    display: inline-block;
+    color:#2b2a2c;
+    line-height: 1;
+    text-decoration:none;
+    cursor: pointer;
+    position:relative;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.menubuttons:after {
+    background-color: #2b2a2c;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left:50%;
+    position:absolute;
+    transition: 0.3s ;
+    transform:translateX(-50%);
+}
+.menubuttons:hover:after {
+    width: 100%;
+}
+.avatar {
+    height: 57px;
+    width: 57px;
+    border-radius: 50%;
+    background: url('https://pp.userapi.com/c847020/v847020238/185039/EAoHvhHrs9s.jpg');
+    background-size: 100%;
+}
+.myname {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.about1 {
+    background: url('https://cdn1.savepice.ru/uploads/2019/1/27/7ec8da6e909cbef12e488f46291ec50e-full.jpg') no-repeat center / cover;
+    height: 60vh;
+    box-shadow: inset 0 0 50px rgba(0,0,0,0.8);
+    border-radius:25%;  	
+background-attachment:fixed;
+}
+.hero {
+    padding-top:100px;
+}
+.hero_subtitle {
+    font-size:40px;
+}
+.hero_title {
+    margin-top: 5px;
+    font-size:50px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.hero_discription {
+    font-size:  35px;
+    color:#222;
+}
+.hero_social {
+    margin-top:26px;
+}
+.social {
+    display: inline-block;
+    width:41px;
+    height:41px;
+    margin-right: 12px;
+    color: white;
+    text-align: center;
+    line-height: 41px;
+    border-radius: 10px;
+    
+}
+.vk {
+   background: #56acef; 
+}
+.inst {
+    background: #13578a;
+}
+.fb {
+    background: #3a5898;
+}
+.mail {
+   background: #1869ff; 
+}
+.social:hover {
+  opacity: 0.83;  
+}
+.about2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.about5 {
+    display:flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+.ultitle {
+    font-size: 29px;
+        margin-bottom: 10px;
+    color:#333;
+    margin-left: 37px;
+}
+.skills {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+li {
+    padding-top: 10px;
+    list-style-type: none;
+}
+.aboutme {
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-size:38px;
+}
+.fifty7 {
+    height: 63px;
+    width: 100%;
+    background: #fff;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+}
+.about4 {
+ padding: 0 40px;
+    text-align: center;
+
+}
+.orange {color:darkorange;}
+.blue {color:darkblue;}
+.red {color:red;}
+.lightblue {color: #56acef;}
+.card {
+    min-height: 350px;
+    width: 350px;
+    margin-bottom: 50px;
+    perspective: 350px;
+}
+.cards {
+    padding:97px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.img {
+    height: 300px;
+}
+strong {
+    display:inline-block;
+    line-height: 70px;
+    padding-left: 20px;
+}
+.img1{
+    background: url('https://prod.media.libero.pe/630x773/libero/imagen/2018/10/03/noticia-allison-parker-diablita-libero-7.jpg') no-repeat center / cover;
+}
+.img2 {
+  background: url('https://cdn.yostagram.com/2018/11/allison-parker-280.jpg') no-repeat center / cover;
+}
+.img3 {
+  background: url('https://ripost.s3.eu-central-1.amazonaws.com/kepadatbazis/23a2158f49bff20fefd66f01d41c67bc072a4116/83e18d4d389a5405c86e1e7845afd66bbc2a7708.jpg') no-repeat center / cover;  
+}
+.img4 {
+  background: url('https://ripost.s3.eu-central-1.amazonaws.com/kepadatbazis/9c0ce5f149cbf3f627d95f81702c44ff7a3c35a5/1d80abe6d1b73695e4e13512d78dc7533ee316b6.jpg') no-repeat center / cover; 
+}
+.img5 {
+  background: url('https://i.pinimg.com/originals/d0/62/4d/d0624dbe435e84033e76eee15bc70410.jpg') no-repeat center / cover; 
+}
+.img6 {
+  background: url('https://ripost.s3.eu-central-1.amazonaws.com/kepadatbazis/b421bcbdb01baeae6e441b3c3fce400dd4edf545/0b8f81ee7a5b109ae45adb362e0780098eb5d099.jpg') no-repeat center / cover; 
+}
+ .front,.back {
+    position:absolute;
+    width: 90%;
+    height: 90%;
+    left: 0;
+    top: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    transition: 0.5s;
+      backface-visibility: hidden;
+      border-radius: 20px;
+      border: 1px solid #555;
+}
+.card:hover .front {
+    transform: rotateY(180deg);
+}
+.card:hover .back {
+    transform: rotateY(360deg);
+    opacity: 1;
+}
+.back {
+    opacity:0;
+    background: #ddd;
+}
+.cards > a {
+    color:#000;
+}
+footer {
+    background: #2b2a2c;
+    padding: 20px 0;
+    box-shadow: 0 0 10px;
+}
+.copyright {
+    color:#8d8e8d;
+    padding-right: 20px;
+}
+.foot{
+    color:#8d8e8d;
+    padding:0 10px;
+}
+.footer_text {
+    display: flex;
+}
+.foot:hover {
+    color:#fff;
+}
+.aboutwrap {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
