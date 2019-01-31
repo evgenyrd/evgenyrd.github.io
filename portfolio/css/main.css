@@ -93,6 +93,8 @@ body { padding: 0;margin: 0;font-family: 'Open Sans', sans-serif;
     border-radius:25%;  	
 background-attachment:fixed;
     display: flex;
+    justify-content: center;
+    align-content: center;
 }
 .hero_subtitle {
     font-size:40px;
