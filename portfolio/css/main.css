@@ -87,7 +87,7 @@ body { padding: 0;margin: 0;font-family: 'Open Sans', sans-serif;
     padding-left: 10px;
 }
 .about1 {
-    background: url('https://cdn1.savepice.ru/uploads/2019/1/27/7ec8da6e909cbef12e488f46291ec50e-full.jpg') no-repeat center / cover;
+    background: url('https://image.freepik.com/foto-gratis/concepto-de-negocio-con-copia-espacio-mesa-de-escritorio-de-oficina-con-enfoque-de-pluma-y-analisis-de-grafico-computadora-bloc-de-notas-taza-de-cafe-en-el-tablero-desk-vintage-retro-filtro-enfoque-selectivo_1418-667.jpg') no-repeat center / cover;
     height: 60vh;
     box-shadow: inset 0 0 50px rgba(0,0,0,0.8);
     border-radius:25%;  	
@@ -98,16 +98,19 @@ background-attachment:fixed;
 }
 .hero_subtitle {
     font-size:40px;
+    text-shadow: #fff 0 0 2px;
 }
 .hero_title {
     margin-top: 5px;
     font-size:50px;
     font-weight: 800;
     margin-bottom: 5px;
+    text-shadow: #fff 0 0 2px;
 }
 .hero_discription {
     font-size:  35px;
     color:#222;
+    text-shadow: #fff 0 0 2px;
 }
 .hero_social {
     margin-top:26px;
@@ -230,8 +233,8 @@ strong {
 }
  .front,.back {
     position:absolute;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     left: 0;
     top: 0;
       display: flex;
@@ -239,7 +242,7 @@ strong {
       align-items: center;
     transition: 0.5s;
       backface-visibility: hidden;
-      border-radius: 10px;
+      border-radius: 20px;
       border: 1px solid #555;
 }
 .card:hover .front {
@@ -279,4 +282,9 @@ footer {
     display: flex;
     justify-content: space-around;
     flex-wrap:wrap;
+}
+.fixcard {
+    height: 317px;
+    width: 317px;
+    margin: 30px;
 }
